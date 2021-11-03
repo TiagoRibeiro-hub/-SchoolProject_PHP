@@ -1,0 +1,246 @@
+
+body{
+    display: block;
+    overflow-x: hidden;
+    background-image: url(Imagens/logotransp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar-brand{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;   
+}
+.collapse{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;  
+}
+/*--------Login----------*/
+#login-welcom{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#login-welcom .welcom-col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#login-welcom .login-col{
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+}
+
+/*--------craftworkzone----------*/
+#craftworkzone{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#craftworkzone .col{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*--------herbalproductskzone----------*/
+#herbalproductskzone{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#herbalproductskzone .col{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*--------aboutus----------*/
+#aboutus{
+    margin-bottom: 25px;
+}
+
+#aboutus .col{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;
+}
+
+#aboutus .carousel-inner{
+    max-height: 450px;
+}
+/*--------Contactus----------*/
+
+#contactus{
+    margin-top: 25px;
+}
+
+#contactus .col{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+#contactus .row-texto{
+    background-color: black;
+}
+
+#contactus .row-logo{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#contactus .logo-inst{
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#contactus .logo-face{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/*----------------Form--------------------*/
+/*----------------Login-------------------*/
+
+.login-container{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10%;
+    
+}
+.login-title{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.login-button{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid white;
+    color:  rgba(255, 255, 255, 0.582);
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color:  rgba(255, 255, 255, 0.582);
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: fantasy;
+}
+
+/*-----------Register---------------*/
+.register{
+    
+    margin-top: 10vh;
+}
+.register-container{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 50px 30px;
+    max-width: 800px;
+    border-radius: 10%; 
+}
+
+.register-button{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid white;
+    color:  rgba(255, 255, 255, 0.582);
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.register-button:hover{
+    background-color:  rgba(255, 255, 255, 0.582);
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: fantasy;
+}
+
+/*-----------Input Group---------------*/
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-group label{
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.input-group input{
+    background-color: rgb(0, 0, 0, 0.7);
+    border: 2px solid white;
+    color: white;
+    font-weight: lighter;
+}
+
+.input-group input:focus{
+    border: 3.5px solid white;
+}
+/*-----------Input Group---------------*/
+
+/*-----------End Form--------------------*/
+
+/*--------------Buy--------------------*/
+
+.info-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+/*--------------End Buy------------------*/
+
+/*--------------ShoppingCar---------------------*/
+
+.table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.opcao-pagam{
+    height: 50px;
+    width: 450px;    
+}
+
+.payment-zone{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*--------------End ShoppingCar------------------*/
